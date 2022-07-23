@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+  background-color: #641c0e;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #4e130b;
+}
+
+#ic:hover {
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+.reserva {
+  cursor: pointer;
+}
+
+/* Card */
+
+.card {
+  background-color: #4e130b;
+  width: 370px;
+  border-radius: 30px;
+}
+
+.row {
+  margin-inline-start: auto;
+}
+.row:hover{
+  animation-play-state: paused;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: all 300ms;
+}
+
+.card-title {
+  font-size: 2rem;
+}
+
+.card img {
+  border-radius: 30px;
+}
+
+
+/* Footer */
+.pie {
+  color: rgb(233, 238, 245);
+  font-size: 20px;
+  padding: 20px;
+}
